@@ -1,6 +1,6 @@
 {
 	"name": "integer-digits",
-	"description": "Iterate an integer as a set of digits as any base",
+	"description": "Iterate an integer as a set of digits as any power-of-two base",
 	"version": "1.0.0",
 	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
 	"contributors": [
