@@ -2,16 +2,18 @@
 ((module) => {
 	'use strict';
 
-	var getDigit = require('./utils/get-digit');
-
 	module.exports = createClass;
 
-	function createClass(exp, shift) {
+	function createClass(exp, shift, getDigit) {
 
 		var Base = require('x-iterable/create-class').fromGenerator(digits);
 
 		shift *= exp;
 		var filter = ~(-1 << exp);
+
+		if (typeof getDigit !== 'function') {
+			getDigit = require('./utils/get-digit');
+		}
 
 		class PowOfTwo extends Base {
 
