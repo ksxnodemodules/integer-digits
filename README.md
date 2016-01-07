@@ -18,7 +18,8 @@
 ### Binary to booleans
 
 ```javascript
-var booleans = require('integer-digits/bin').boolean(0b10011010010, 10); // 11 digits of 0b10011010010
+// 11 digits of 0b10011010010
+var booleans = require('integer-digits/bin').boolean(0b10011010010, 10);
 console.log(booleans);
 ```
 
