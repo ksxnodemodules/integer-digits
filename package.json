@@ -1,0 +1,38 @@
+{
+	"name": "integer-digits",
+	"description": "Iterate an integer as a set of digits as any base",
+	"version": "0.0.0",
+	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+	"contributors": [
+		"Hoàng Văn Khải <hvksmr1996@gmail.com>"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ksxnodemodules/integer-digits.git"
+	},
+	"engines": {
+		"node": ">=5.0.0"
+	},
+	"dependencies": {
+		"x-iterable": "> 1.3.0"
+	},
+	"files": [
+		"./"
+	],
+	"main": "index.js",
+	"keywords": [
+		"digits",
+		"number",
+		"base",
+		"integer"
+	],
+	"bugs": {
+		"url": "https://github.com/ksxnodemodules/integer-digits/issues"
+	},
+	"homepage": "https://github.com/ksxnodemodules/integer-digits#readme",
+	"scripts": {
+		"test": "node --es-staging ./test.fs.js >> test-result.log"
+	},
+	"tonicExampleFileName": "./test.js"
+}
