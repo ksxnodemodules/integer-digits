@@ -7,7 +7,6 @@
 
  * Iterate bits, hex-digits, oct-digits
  * Iterate power-of-two base digits
- * Iterate digits as any base
 
 ### Convert bases
 
@@ -50,11 +49,4 @@ console.log({
 ```javascript
 var Base4 = require('integer-digits/exp')(2, 5); // 6 digits of base 1 << 2 (i.e. 4)
 console.log(new Base4(1234).string);
-```
-
-### (Non)-Power-Of-Two Base digits: Base 5
-
-```javascript
-var Base5 = require('integer-digits/any')(5, 5); // 6 digits of base 5
-console.log(new Base5(1234).string);
 ```

@@ -29,7 +29,7 @@ function Test() {
 			var instance = object.object = new Class(int);
 			['string', 'integer'].forEach((pname) => object[pname] = instance[pname]);
 		}, ['exp'], [2, 3, 4, 5, 6, 7, 8, 9, 10])
-	)(this['{exp, any}'] = {});
+	)(this['{exp}'] = {});
 
 	function calltest(test, ...args) {
 		ProductIterable.create(integers, shifts, ...args).forEach((element) => test(...element));
