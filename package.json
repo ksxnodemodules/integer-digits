@@ -17,9 +17,6 @@
 	"dependencies": {
 		"x-iterable": "> 1.3.0"
 	},
-	"files": [
-		"./"
-	],
 	"main": "index.js",
 	"keywords": [
 		"digits",
